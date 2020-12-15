@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+
+button {
+    outline: none;
+    cursor: pointer;
+}
+
+.recomend-btn {
+    color: #333333;
+    background-color: #FDFFD3;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    padding: 6px 20px 6px 21px;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.slot-btn {
+    border: 1px solid #707070;
+    border-radius: 20px;
+    height: 35px;
+    min-width: 102px;
+    background-color: #fff;
+    color: #515151;
+    font-size: 14px;
+    margin: 0px 11px 0px 0px;
+    font-weight: bold;
+}
+
+.watch-btn {
+    background-color: #fff;
+    border: none;
+    color: var(--dark-grey);
+    box-shadow: 1px 1px 0px #00000029;
+    border-radius: 5px;
+    min-width: 210px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.red-btn {
+    top: 568px;
+    left: 830px;
+    height: 45px;
+    background: #FF3A58;
+    box-shadow: 2px 2px 0px #0000001A;
+    border: 1px solid #FF3A58;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.share-btn {
+    color: #FF3A58;
+    width: 65px;
+    height: 45px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 2px 2px 0px #0000001A;
+    border: 1px solid #FF3A58;
+    border-radius: 5px;
+    opacity: 1;
+    font-size: 14px;
+    font-weight: bold;
+}
