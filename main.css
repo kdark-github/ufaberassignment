@@ -36,12 +36,22 @@ a {
 
 .navbar>div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 .nav-menu {
     font-size: 14px;
+}
+
+.cmpny-logo {
+    /* margin-right: ; */
+    float: left;
+}
+
+.menu-icon {
+    margin: 0px 71px;
+    float: left;
 }
 
 .nav-menu a {
@@ -261,6 +271,10 @@ a {
     min-width: 102px;
     display: inline-block;
     vertical-align: top;
+}
+
+.sh-m {
+    display: none;
 }
 
 /* Main Banner Css End */
@@ -505,8 +519,7 @@ a {
     font-family: var(--montserrat);
 }
 
-.footer-cmpny-dets-ctn {
-}
+.footer-cmpny-dets-ctn {}
 
 footer * {
     color: #ffffff;
@@ -571,4 +584,115 @@ footer * {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* media queries for mobile */
+
+@media only screen and (max-width: 600px) {
+    .nav-menu {
+        display: none;
+    }
+    .main-banner nav {
+        display: none;
+    }
+    .main-banner-details {
+        flex-direction: column;
+        margin-bottom: 30px;
+
+    }
+    .main-banner {
+        background-color: #FBFCF7;
+        height: auto;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .about-section {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .footer {
+        height: auto;
+    }
+    .footer-btm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px 30px;
+    }
+    .footer-navs-ctn ul li {
+        border-bottom: 1px solid white;
+        width: 90%;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .footer-cmpny-dets-ctn {
+        display: none;
+    }
+    .footer-navs-ctn div:first-child {
+        display: none;
+    }
+    .footer-navs-ctn {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-banner-title-container {
+        display: block;
+        width: 100%;
+    }
+    .main-banner-title-container div:last-child {
+        display: none;
+    }
+    .navbar>div {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        height: 80px;
+    }
+    .main-banner-image>img {
+        height: 367px;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .main-banner-image {
+        height: 367px;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .main-banner-image+div {
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+        /* border-radius: 5px; */
+        /* text-align: center; */
+        padding-left: 20px;
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    .main-banner h1 {
+        margin-top: 0px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .sh-d {
+        display: none;
+    }
+    .sh-m {
+        display: unset;
+    }
+    .badeges-ctn-main {
+        width: 1300px;
+    }
+    .about-section {
+        overflow: hidden;
+        padding-left: 15px;
+    }
+    .opimg {
+        display: none;
+    }
+    .footer-social {
+        display: none;
+    }
 }
