@@ -183,6 +183,16 @@ a {
     font-family: 'Montserrat', sans-serif;
 }
 
+.main-banner-header div {
+    display: none;
+    /* text-align: center; */
+}
+
+.book-btn-css {
+    margin-right: 25px;
+    width: 350px;
+}
+
 .main-banner-title-container {
     display: flex;
     justify-content: space-between;
@@ -598,7 +608,6 @@ footer * {
     .main-banner-details {
         flex-direction: column;
         margin-bottom: 30px;
-
     }
     .main-banner {
         background-color: #FBFCF7;
@@ -673,8 +682,9 @@ footer * {
     }
     .main-banner h1 {
         margin-top: 0px;
-        text-align: center;
+        /* text-align: center; */
         font-size: 20px;
+        padding-left: 15px;
     }
     .sh-d {
         display: none;
@@ -694,5 +704,18 @@ footer * {
     }
     .footer-social {
         display: none;
+    }
+    .main-banner-header div {
+        display: block;
+        padding-left: 15px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .main-banner-header>p {
+        display: none;
+    }
+    .book-btn-css {
+        margin-right: 25px;
+        width:250px;
     }
 }
